@@ -1,11 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int num;
+    int num,num1;
     cout<<"Enter your Table Number: ";
     cin>>num;
-    for(int i=0;i<=num;i++){
-        cout<<"9 x "<<i<<" = "<<9*i<<endl;
+    cout<<"Enter your Bottom up Number:";
+    cin>>num1;
+    for(int i=0;i<=num1;i++){
+        cout<<num<<" x "<<i<<" = "<<num*i<<endl;
     }
     return 0;
 }
